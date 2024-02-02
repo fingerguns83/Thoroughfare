@@ -1,0 +1,6 @@
+name: Thoroughfare
+author: fingerguns83
+website: https://fg83.net
+version: '${project.version}'
+main: net.fg83.thoroughfare.Thoroughfare
+api-version: '1.20'

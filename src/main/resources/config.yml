@@ -1,0 +1,23 @@
+grass-reps: 20 # Reps to convert grass to coarse dirt, [max 4095]
+coarse-dirt-reps: 100 # Reps to convert coarse dirt to path, [max 4095]
+
+paths-wear: false # Do paths wear away to cobblestone slabs? Time to pave a permanent path, friend.
+path-reps: 1000 # Reps to convert paths to cobble slabs, [max 4095]
+
+# Ridden Mobs (Mobs wandering on their own have no effect)
+# "Value" is how much that mob contributes to the wear of a block. Players have a step value of 1.
+camel:
+  value: 3
+donkey:
+  value: 2
+horse:
+  value: 3
+llama:
+  value: 2
+mule:
+  value: 2
+pig:
+  value: 1
+strider:
+  value: 1
+
